@@ -337,15 +337,15 @@ void loop()
                 //                   ^^^
                 case CH_OFF2ON_1:
                     if ((now - ms[i]) >= TRIAC_DELAY) {
-                        shift_update = true;
                         if (triac_test) {
                             st[i] = CH_ON_TEST;
                             duty--;
                         } else {
+                            shift_update = true;
                             st[i] = CH_OFF2ON_2;
                             ms[i] = now;
+                            relay_on(i);
                         }
-                        relay_on(i);
                     }
                     break;
                 // (OFF)---(TRIAC ON)---(RELAY ON)---(TRIAC OFF)---(ON)

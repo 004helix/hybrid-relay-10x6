@@ -7,6 +7,7 @@
 - 250VAC/6A slim mechanical relays -- `Finder 34.51 / TE V23092 / Hongfa HF41F`
 - `ATmega164PA-MU / ATmega324PA-MU / ATmega644PA-MU` MCU
 - triac test button
+- open-drain input
 
 ![lrm1](img/lrm1.jpg?raw=true "Unboxed")
 ![lrm2](img/lrm2.jpg?raw=true "Boxed")
