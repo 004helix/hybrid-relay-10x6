@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "light-relay-module-rescue")(type "Legacy")(uri "${KIPRJMOD}/light-relay-module-rescue.lib")(options "")(descr ""))
+)
