@@ -11,6 +11,8 @@
 - triac test button
 - open-drain input
 
+[BOM](BOM.md)
+
 ![lrm1](img/lrm1.jpg?raw=true "Unboxed")
 ![lrm2](img/lrm2.jpg?raw=true "Boxed")
 ![lrm3](img/lrm3.jpg?raw=true "Top")
