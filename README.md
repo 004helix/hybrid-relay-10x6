@@ -1,4 +1,4 @@
-# 10 channel hybrid relay din-rail module
+# 10-channel hybrid relay din-rail module
 
 - 4 units width
 - 12/24v dc input
